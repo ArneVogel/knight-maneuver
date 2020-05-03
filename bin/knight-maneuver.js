@@ -1996,7 +1996,7 @@ function createControl() {
     high_moves_span.id = "movesHighscore";
     high_moves_span.innerText = 0;
     highscore.appendChild(high_moves_span);
-    highscore.append(", Time: ");
+    highscore.append("; Time: ");
     let high_time_span = document.createElement("span")
     high_time_span.id = "timeHighscore";
     high_time_span.innerText = "00:00";
