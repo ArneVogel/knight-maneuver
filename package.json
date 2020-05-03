@@ -1,0 +1,15 @@
+{
+  "name": "knight-maneuver",
+  "version": "1.0.0",
+  "description": "Knight Maneuver Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js -o bin/knight-maneuver.js"
+  },
+  "author": "Arne Vogel",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "chessground": "^7.6.12"
+  }
+}
